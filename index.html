@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container text-center pt-5 ">
+      <div class="header position-relative d-flex justify-content-center mb-5">
+
+        <h1 class="mb-0">Bookmarker</h1>
+        <div class="position-absolute bg "></div>
+
+      </div>
+      <div class="row justify-content-center py-3">
+        <div class="inner d-flex justify-content-center pt-3 align-items-center">
+          <h2 class="px-2 pt-2"><i class="fa-solid fa-bookmark me-2"></i>Bookmark your favorite sites<i class="fa-solid fa-bookmark ms-2"></i></h2>
+        </div>
+        <form class=" head d-flex flex-column align-items-center py-4 form">
+          <div class="alert alert-danger py-2 d-none">Lorem ipsum dolor sit amet consectetur.</div>
+          <label class=" mb-2 text-start" for=""><span><i class="fa-solid fa-book-bookmark pe-2"></i></span> Site Name</label>
+          <input id="productName" oninput="validateForm(this)" class=" py-2 px-3  form-control  rounded-3" type="text" placeholder="Bookmark Name"/>
+          <label class=" mb-2 mt-4 text-start" for=""><span><i class="fa-solid fa-link pe-2"></i></span> Site URL</label>
+          <input id="productUrl" oninput="validateForm(this)" class=" py-2 px-3  form-control  rounded-3" type="text" placeholder="Website URL"/>
+          <button type="submit" onclick="addProduct()" class="btn btn-secondary mt-4  mb-0">Submit</button>
+        </form>
+        <table class="table bg-light text-center m-auto">
+          <thead class="rounded-0 ">
+            <tr>
+              <th>Index</th>
+              <th>Website Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody class="" id="bodyData">
+          </tbody>
+        </table>
+
+      </div> 
+    </div>
+
+
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+  </body>
+</html>

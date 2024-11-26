@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(246, 235, 221);
+}
+.container{
+    background-color: rgb(246, 235, 221);
+}
+.bg {
+    width: 270px;
+    background-color: #FEC260;
+    height: 19px;
+    bottom: 3px;
+    z-index: 4;
+    transition: all .5s;
+}
+h1:hover + .bg {
+    height: 38px;
+}
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: "Pacifico", cursive;
+    z-index: 5;
+}
+
+.inner i {
+    font-size: 25px;
+    
+}
+.inner h2 {
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.form-control{
+    border: 1px solid rgba(131, 144, 156, 0.418) ;
+    width: 100%;
+}
+.form-control:focus {
+    box-shadow: rgba(254, 193, 96, 0.363) 0px 0px 0px 4px;
+    border: 1px solid rgba(180, 40, 70, 0.418) ;
+    outline: 0;
+}
+label {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 600;
+    width: 99%;
+}
+.form .btn {
+    background-color: #d1512d;
+    border: 0;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    transition: all .2s;
+}
+.form .btn:hover {
+    background-color: #a03315;
+}
+a {
+    color: inherit;
+}
+
+tbody .btn1{
+    background-color: #9eb23b;
+    border-color: #9eb23b;
+    transition: all .4s;
+    --bs-btn-hover-border-color: #6e8018;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #000;
+}
+tbody .btn1:hover{
+background-color: #6e8018;
+
+}
+
+tbody .btn2 {
+    background-color: #eb1d36;
+    border-color: #eb1d36;
+    transition: all .4s;
+
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #000;
+}
+
+tbody .btn2:hover{
+background-color: #ba081d;
+}
+.table{
+    width: 98%;
+}
+
+.inner{
+    border-top: 2px black dotted;
+    width: 98%;
+}
+.head {
+    border-bottom: 2px black dotted;
+    margin-bottom: 20px;
+    width: 98%;
+}
+
+
